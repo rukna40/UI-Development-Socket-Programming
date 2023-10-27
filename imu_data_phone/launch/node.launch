@@ -1,0 +1,7 @@
+<launch>
+
+<node pkg="imu_data_phone" type="server.py" name="server" output="screen"></node>
+
+<!-- <node name="rviz" pkg="rviz" type="rviz" output="screen" args="-d $(find imu_data_phone)/imu_default.rviz"/> -->
+
+</launch>

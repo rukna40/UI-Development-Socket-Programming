@@ -1,0 +1,5 @@
+<launch>
+
+    <node pkg="ui" type="ui_source.py" name="ui_source" output="screen"></node>
+
+</launch>
